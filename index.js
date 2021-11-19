@@ -1,6 +1,6 @@
-let paragraphs = document.getElementsByTagName('p');
+const paragraphs = document.getElementsByTagName('p');
 
-console.log(paragraphs);
+console.log("parrafos en el documento: ",paragraphs);
 
 if(paragraphs.length>0){
 let paragraph = paragraphs[0];
